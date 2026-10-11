@@ -60,6 +60,7 @@ buttons.forEach(button => {
             if ( firsttInput === "" || secondInput === "" || operator === ""){
                 result = "error"
                 displayNow.textContent = result;   
+                AC();
             }
             else {
                 result = operat (firsttInput ,secondInput , operator);
